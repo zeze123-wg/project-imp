@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    background-color :aqua;
+}
+
+h1 {
+
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+
+}
+
+#app {
+    width: 100%;
+    height: 800px;
+    background-color: aliceblue;
+
+}
+
+
+
+#game {
+    width: 100%;
+    height: 800px;
+    background-color: lightcoral;
+
+}
+
+#Chatbot {
+    width: 100%;
+    height: 800px;
+    background-color: lightcoral;
+
+}
+
+
+}
+
+img {
+    transition: transform .5s;
+}
+
+img:hover {
+    transform: scale(0.5);
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 500px;
+    margin: 8px auto;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    color: aliceblue;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+
+.links {
+    float: left;
+    color: fuchsia;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: cyan;
+}
